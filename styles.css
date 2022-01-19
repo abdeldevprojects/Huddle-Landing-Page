@@ -29,6 +29,10 @@ img {
     display: block;
 }
 
+a{
+    text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -128,6 +132,13 @@ header .logo {
 
 .all-icons li:hover  a i{
     color: var(--soft-magenta);
+}
+
+/* Footer : coded By */
+
+footer {
+    font-family: var(--ff-open-sans);
+
 }
 
 @media (min-width: 600px) {

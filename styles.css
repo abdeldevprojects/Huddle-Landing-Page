@@ -98,13 +98,23 @@ header .logo {
 }
 
 .all-icons li {
+    position: relative;
     margin-right: 2rem;
     padding: 0.5rem;
-    width: 35px;
-    height: 35px;
+    /* width: 35px;
+    height: 35px; */
     border: 1px solid #fff;
     border-radius: 77px;
     transition: all 300ms;
+}
+
+.all-icons li a {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .all-icons li a i {
@@ -168,6 +178,15 @@ header .logo {
 
 @media (min-width: 1300px) {
 
+    body {
+        background: url("images/bg-desktop.svg");
+        margin: 1em;
+        font-size: 1rem;
+        background-repeat: no-repeat;
+        background-color: var(--violet);
+        
+    }
+
     header .logo{
         width: 18%;
     }
@@ -185,11 +204,15 @@ header .logo {
     .text-container {
         width: 50%;
         text-align: left;
-        margin: 0  5rem 8rem 0;
+        margin: 2.5rem  5rem 8rem 0;
     }
 
     .text-container .title {
         font-size: 2.5rem;
+    }
+
+    .socials {
+        margin-top: 0;
     }
 
 
